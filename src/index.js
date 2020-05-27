@@ -5,3 +5,7 @@ function sayHello() {
 }
 
 sayHello();
+
+const niceMessage = require('./say-hello');
+
+console.log(niceMessage('Trevor'));
